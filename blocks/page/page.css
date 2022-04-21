@@ -1,0 +1,13 @@
+.page {
+  width: 100%;
+  background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  font-family: "Inter";
+}
+
+.brd {
+  border: 1px solid red;
+}
