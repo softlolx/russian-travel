@@ -1,2 +1,22 @@
 .place {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-bottom: 80px;
+}
+
+.place:nth-child(5n) {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .place {
+    padding-bottom: 50px;
+  }
 }

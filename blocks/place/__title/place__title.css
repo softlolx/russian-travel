@@ -1,2 +1,43 @@
 .place__title {
+  width: 500px;
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.09;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .place__title {
+    width: 378px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  .place__title {
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .place__title {
+    padding: 0 0 32px 16px;
+  }
 }
