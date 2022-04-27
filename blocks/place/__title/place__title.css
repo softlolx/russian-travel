@@ -4,7 +4,6 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 1.09;
-
   color: #ffffff;
 }
 
@@ -38,6 +37,6 @@
 
 @media screen and (max-width: 350px) {
   .place__title {
-    padding: 0 0 32px 16px;
+    padding: 0 0 0 16px;
   }
 }
