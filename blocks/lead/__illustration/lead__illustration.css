@@ -1,24 +1,16 @@
 .lead__illustration {
-  width: 77%;
-}
-
-@media screen and (min-width: 1281px) {
-}
-
-@media screen and (max-width: 1280px) {
+  max-width: calc(100% - (148px * 2));
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__illustration {
-    width: 90%;
+    max-width: calc(100% - (48px * 2));
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__illustration {
-    width: 100%;
+    max-width: 100%;
   }
-}
-
-@media screen and (max-width: 425px) {
 }

@@ -2,9 +2,3 @@
   width: 100%;
   object-fit: cover;
 }
-
-/* @media screen and (max-width: 310px) {
-  .photo-grid__item {
-    max-width: 280px;
-  }
-} */
