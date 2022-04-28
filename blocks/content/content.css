@@ -1,5 +1,6 @@
 .content {
   width: 100%;
+  max-width: 1280px;
   flex-direction: column;
   display: flex;
   align-items: center;
