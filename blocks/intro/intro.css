@@ -1,25 +1,23 @@
 .intro {
   width: 100%;
-
   display: flex;
   flex-direction: column;
   max-width: calc(100% - (148px * 2));
-  /* Родителю задана ширина. В этом блоке не получится сделать иначе. При подходе max-width: 690px; блок центрируется и придется объединять его с блоком выше, чтобы в контрольных точках он стоял вровень с картинкой блока lead. Паддингом сделать это не получится, т.к. из-за них на промежуточных разрешениях будет появляться горизонтальный скролл.   */
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .intro {
     max-width: calc(100% - (48px * 2));
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .intro {
     max-width: calc(100% - (24px * 2));
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .intro {
     max-width: calc(100% - (16px * 2));
   }

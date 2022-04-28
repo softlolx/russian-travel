@@ -2,27 +2,27 @@
   padding: 28px 0 56px 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  /* Теперь ссылки переключения языка немного улетели вверх от того, как в макете. Я посоветовался с Вениамином, он сказал так и оставить. */
+  align-items: flex-end;
   width: 100%;
-  max-width: 1184px;
+  max-width: calc(100% - (48px * 2));
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .header {
-    max-width: 928px;
+    max-width: calc(100% - (24px * 2));
     padding-bottom: 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header {
-    max-width: 720px;
+    max-width: calc(100% - (16px * 2));
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
+    width: 100%;
     max-width: 288px;
     padding-top: 16px;
   }
