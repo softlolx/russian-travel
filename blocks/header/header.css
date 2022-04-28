@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* Теперь ссылки переключения языка немного улетели вверх от того, как в макете. Я посоветовался с Вениамином, он сказал так и оставить. */
   width: 100%;
   max-width: 1184px;
 }
