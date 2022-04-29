@@ -9,10 +9,6 @@
   margin: 0;
 }
 
-.place__paragraph:last-child {
-  padding-bottom: 0;
-}
-
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
@@ -22,6 +18,10 @@
 
 @media screen and (max-width: 425px) {
   .place__paragraph {
-    padding: 0 16px 0 16px;
+    padding: 0 16px 8px 0;
   }
+}
+
+.place__paragraph:last-child {
+  padding-bottom: 0;
 }

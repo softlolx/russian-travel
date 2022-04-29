@@ -1,0 +1,13 @@
+.subscribe-form__email-field {
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media screen and (max-width: 732px) {
+  .subscribe-form__email-field {
+    flex-wrap: wrap;
+  }
+}

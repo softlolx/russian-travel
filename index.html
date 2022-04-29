@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Путешествия по России</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
   </head>
   <body class="root">
     <div class="page">
@@ -315,6 +316,28 @@
               </p>
             </div>
           </a>
+        </section>
+        <section class="subscribe">
+          <h4 class="subscribe__heading">
+            Я пока не готов никуда ехать, но напомните мне об этой идее позже :)
+          </h4>
+          <form class="subscribe-form">
+            <fieldset class="subscribe-form__email-field">
+              <input
+                type="email"
+                class="subscribe-form__email-input"
+                id="user-email"
+                placeholder="Введите Ваш e-mail"
+                name="user-email"
+                required
+              />
+              <input
+                type="submit"
+                class="subscribe-form__submit-button fade"
+                value="Напомнить"
+              />
+            </fieldset>
+          </form>
         </section>
       </main>
       <footer class="footer">

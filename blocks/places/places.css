@@ -4,23 +4,23 @@
   align-items: center;
   padding-bottom: 92px;
   width: 100%;
+  max-width: calc(100% - (48px * 2));
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .places {
-    max-width: 928px;
+    max-width: calc(100% - (24px * 2));
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .places {
-    max-width: 720px;
+    max-width: calc(100% - (16px * 2));
   }
 }
 
 @media screen and (max-width: 425px) {
   .places {
-    max-width: 320px;
     padding-bottom: 66px;
   }
 }

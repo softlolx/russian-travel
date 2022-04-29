@@ -40,3 +40,9 @@
 @import url(../blocks/place/__nav/place__nav.css);
 @import url(../blocks/place/__url/place__url.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+@import url(../blocks/subscribe/subscribe.css);
+@import url(../blocks/subscribe-form/subscribe-form.css);
+@import url(../blocks/subscribe-form/__email-field/subscribe-form__email-field.css);
+@import url(../blocks/subscribe-form/__email-input/subscribe-form__email-input.css);
+@import url(../blocks/subscribe-form/__submit-button/subscribe-form__submit-button.css);
+@import url(../blocks/subscribe/__heading/subscribe__heading.css);

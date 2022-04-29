@@ -1,0 +1,15 @@
+.subscribe__heading {
+  margin: 0;
+  padding-bottom: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.06;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 732px) {
+  .subscribe__heading {
+    font-size: 18px;
+  }
+}
