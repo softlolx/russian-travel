@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 425px) {
   .place {
-    grid-template-columns: repeat(auto-fit, 320px);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 360px));
     padding-bottom: 50px;
     column-gap: 0;
     row-gap: 32px;
